@@ -59,7 +59,7 @@ function getQuestion() {
   });
 }
 
-function questionClick() {
+function questionClick() {}
   // check if user guessed wrong
   if (this.value !== questions[currentQuestionIndex].answer) {
     // penalize time
